@@ -35,3 +35,14 @@ float Multiplication(int a, int b)
 
 	return resultat;
 }
+
+int exposant(int nb,int exp)
+{
+	float res;
+	
+	res = nb**exp;
+	
+	return res;
+	
+	
+}
