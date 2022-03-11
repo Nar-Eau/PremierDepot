@@ -36,6 +36,7 @@ float Multiplication(int a, int b)
 	return resultat;
 }
 
+
 int exposant(int nb,int exp)
 {
 	float res;
@@ -44,5 +45,16 @@ int exposant(int nb,int exp)
 	
 	return res;
 	
+}	
 	
+int Factoriel(int nb)
+{
+	int resultat;
+
+	for(int i = nb -1; i > 0; i--)
+	{		
+		resultat = nb * i;
+	}
+	
+	return resultat;
 }
