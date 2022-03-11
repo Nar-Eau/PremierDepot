@@ -1,6 +1,6 @@
 #include "Operations.h"
 
-int addition(int a, int b)
+int Addition(int a, int b)
 {
 	int resultat;
 	
@@ -9,11 +9,29 @@ int addition(int a, int b)
 	return resultat;
 }
 
-int soustraction(int a, int b)
+int Soustraction(int a, int b)
 {
 	int resultat;
 	
 	resultat = a - b;
 	
+	return resultat;
+}
+
+float Divison(int a, int b)
+{
+	float resultat;
+	
+	resultat = a/b;
+	
+	return resultat;
+}
+
+float Multiplication(int a, int b)
+{
+	float resultat;
+
+	resultat = a*b;
+
 	return resultat;
 }
